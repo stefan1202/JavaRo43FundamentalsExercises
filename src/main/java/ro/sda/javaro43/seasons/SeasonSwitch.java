@@ -7,6 +7,7 @@ public class SeasonSwitch {
     public static void main(String[] alaBalaPortocala) {
 
         Date d = new Date();
+        java.sql.Date date = new java.sql.Date(2022,10,15);
 
         int mounth = d.getMonth();
 
