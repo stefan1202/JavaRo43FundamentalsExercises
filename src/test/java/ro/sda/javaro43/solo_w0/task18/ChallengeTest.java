@@ -1,0 +1,29 @@
+package ro.sda.javaro43.solo_w0.task18;
+
+import static org.hamcrest.core.Is.is;
+import org.junit.Test;
+import ro.sda.javaro43.solo_w0.task18.Challenge;
+
+import static org.junit.Assert.assertThat;
+
+public class ChallengeTest {
+    @Test
+    public void test1() {
+        assertThat(Challenge.helloName("Gerald"), is("Hello Gerald!"));
+    }
+
+    @Test
+    public void test2() {
+        assertThat(Challenge.helloName("Fatima"), is("Hello Fatima!"));
+    }
+
+    @Test
+    public void test3() {
+        assertThat(Challenge.helloName("Ed"), is("Hello Ed!"));
+    }
+
+    @Test
+    public void test4() {
+        assertThat(Challenge.helloName("Tiffany"), is("Hello Tiffany!"));
+    }
+}
