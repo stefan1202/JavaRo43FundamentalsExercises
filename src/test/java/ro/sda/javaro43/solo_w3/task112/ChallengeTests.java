@@ -1,6 +1,8 @@
 package ro.sda.javaro43.solo_w3.task112;
 
 import org.junit.Test;
+import ro.sda.javaro43.solo_w2.solo_w3.task112.Challenge;
+
 import static org.junit.Assert.assertEquals;
 
 public class ChallengeTests {

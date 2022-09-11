@@ -2,6 +2,7 @@ package ro.sda.javaro43.solo_w3.task120;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
+import ro.sda.javaro43.solo_w2.solo_w3.task120.RedundantString;
 
 public class RedundantStringTest {
     @Test

@@ -2,7 +2,7 @@ package ro.sda.javaro43.solo_w3.task110;
 
 import static org.hamcrest.core.Is.is;
 import org.junit.Test;
-import ro.sda.javaro43.solo_w3.task110.Challenge;
+import ro.sda.javaro43.solo_w2.solo_w3.task110.Challenge;
 
 import static org.junit.Assert.assertThat;
 
